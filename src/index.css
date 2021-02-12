@@ -1,0 +1,47 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+.h1{
+  margin: 40px 0;
+  font-size: 45px;
+  text-align: center;
+}
+tr,td,th{
+  text-align: center;
+  font-size: 18px;
+}
+p{
+  margin: 0;
+  margin-right: 15px;
+  padding: 5px;
+}
+li{
+  overflow: hidden;
+}
+li > p:not(:last-child){
+  border-bottom: 1px solid #e1e4e8;
+}
+ion-icon{
+  margin-right: 5px;
+  padding: 0 0 0 5px;
+  font-size: 25px;
+}
+.dropdown-menu{
+  min-width: 14rem !important;
+  border: none;
+}
+.table{
+  width: 840px;
+  margin-left: 260px !important;
+}
+.position-fixed{
+  width: 250px;
+}
+.btn__form{
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+.name{
+  width: 200px;
+}
